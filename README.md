@@ -1,4 +1,4 @@
-# gdg-indore-website2023
+# GDG Indore Website 2023
 Our template using Daisy UI and Next JS. With the help of Dasisy UI, it comes with fully customizable and themable CSS and power of Tailwind CSS utility classes.
 # Features
 - Light/dark mode toggle
