@@ -7,8 +7,9 @@ Our template using Daisy UI and Next JS. With the help of Dasisy UI, it comes wi
 # Installation
 - Go to the project directory and run (make sure you have node installed first)
 
-  npm install
-  npm start
+  - npm install
+  - npm run build
+  - npm start
 
 # Core Libraries Used
 - Next JS v13.1.6
