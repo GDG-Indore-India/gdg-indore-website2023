@@ -9,7 +9,7 @@ Our template using Daisy UI and Next JS. With the help of Dasisy UI, it comes wi
 
   - npm install
   - npm run build
-  - npm start
+  - npm run dev
 
 # Core Libraries Used
 - Next JS v13.1.6
