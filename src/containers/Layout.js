@@ -1,11 +1,11 @@
 import Footer from "./Footer";
-import Navbar from "./Navbar";
+import Navbar from "../pages/Navbar";
 import Link from "next/link";
 import Bars3Icon from "@heroicons/react/24/outline/Bars3Icon";
 import Head from "next/head";
 import Navlinks from "./Navlinks";
 
-export default function Layout({ children }) {
+export default function Layout({ children, title }) {
   const logoutUser = () => {};
 
   return (
@@ -17,7 +17,7 @@ export default function Layout({ children }) {
         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content flex flex-col">
           <div className="overflow-y-auto  flex flex-col ">
-            <Navbar />
+            <Navbar title={title} />
 
             <div className="overflow-y-auto">
               <main>{children}</main>

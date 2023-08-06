@@ -1,12 +1,12 @@
 import Link from 'next/link'
 import Bars3Icon  from '@heroicons/react/24/outline/Bars3Icon'
-import Navlinks from './Navlinks'
+import Navlinks from '../containers/Navlinks'
 import { themeChange } from 'theme-change'
 import { useEffect, useState } from 'react'
 import MoonIcon from '@heroicons/react/24/outline/MoonIcon'
 import SunIcon from '@heroicons/react/24/outline/SunIcon'
 
-function Navbar(){
+function Navbar({title}){
 
     // const [currentTheme, setCurrentTheme] = useState(localStorage.getItem("theme"))
     const [currentTheme, setCurrentTheme] = useState(null)
@@ -44,7 +44,7 @@ function Navbar(){
             <Link href="/">
             <span className='font-bold text-xl'>
                 {/* <img className="mask inline-block mr-2 mask-circle w-10" src="/android-chrome-192x192.png" />  */}
-                GDG Indore
+                {title}
             </span>
             </Link>
         </div>
