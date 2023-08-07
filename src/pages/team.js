@@ -1,8 +1,12 @@
 import React from 'react'
+import Layout from '@/containers/Layout'
+
 
 const team = () => {
   return (
-    <div>team</div>
+    <Layout title={'Google Developers Home'}>
+      team
+      </Layout>
   )
 }
 

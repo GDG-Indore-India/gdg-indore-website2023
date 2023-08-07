@@ -32,3 +32,10 @@
   color: rgba(0, 0, 0, 0.54);
   border-bottom: 1px solid #dcd7d7;
 }
+.technology-card {
+    border: 1px solid #5f6368;
+    border-radius: 10px;
+}
+.bg-primary {
+    background: linear-gradient(183deg, rgb(245, 245, 245) 0%, rgb(255, 255, 255) 35%);
+}
