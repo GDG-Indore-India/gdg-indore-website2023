@@ -9,6 +9,9 @@
 .md:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 0.15fr));
 }
+.grid-cols-4-1 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
 @media (min-width: 768px) {
     .md\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 0.15fr)) !important;

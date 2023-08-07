@@ -1,7 +1,8 @@
 const testimonialsData = [
-    {text : "Needless to say we are extremely satisfied with the results. I don't always clop, but when I do, it's because of software.", name : "Gracia E."},
-    {text : "Thanks for the great service. I don't always clop, but when I do, it's because of software. I was amazed at the quality of software. I wish I would have thought of it first.", name : "Berthe R."},
-    {text : "Service has got everything I need. Man, this thing is getting better and better as I learn more about it.", name : "Ruby Q."},
+    {icon : "/gdg-indore-logo.svg", name : "Google Developers Group Indore"},
+    {icon : "/gdg-cloud-indore.svg", name : "Google Developers Group Cloud Indore"},
+    {icon : "/wtm-indore.png", name : "Women Techmakers Indore"},
+    {icon : "/tensorflow-indore.svg", name : "TensorFlow User Group Indore"},
 ]
 
 function Hero(){
@@ -17,17 +18,16 @@ function Hero(){
                         </div>
                     </div>
              </div>
-                    <div className="grid mt-12 md:grid-cols-3 grid-cols-1 gap-8 px-20">
+                    <div className="grid mt-12 grid-cols-4-1 grid-cols-1 gap-8 px-20">
                     {
                         testimonialsData.map((t, k) => {
                             return(
                                 <div key={k} className="card w-full bg-base-100 shadow-xl">
                                     <figure className="px-10 pt-10">
-                                        <img className="mask w-16 h-16 mask-circle" src="https://picsum.photos/100/100" />
+                                        <img className="mask w-56 h-24" src={t.icon} />
                                     </figure>
-                                    <div className="card-body items-center text-center">
-                                        <p>{t.text}</p>
-                                        <p className="text-slate-500">-{t.name}</p>
+                                    <div className="card-body items-center text-center pt-4 pb-4">
+                                        <p className="text-slate-800">{t.name}</p>
                                     </div>
                                     </div>
                             )
