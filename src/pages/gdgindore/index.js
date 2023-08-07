@@ -17,7 +17,7 @@ export default function Home() {
         <Hero />
         <Features />
         <Technologies />
-        {/* <SocialLinks /> */}
+        <SocialLinks />
         {/* <Testimonials /> */}
     </Layout>
   )

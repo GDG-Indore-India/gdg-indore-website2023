@@ -2,6 +2,7 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+
 .md:grid-cols-7 {
     grid-template-columns: repeat(7, minmax(0, 1fr));
 }
@@ -12,4 +13,8 @@
     .md\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 0.15fr)) !important;
 }
+}
+.home-text {
+    color: rgba(0,0,0,.54);
+    border-bottom: 1px solid #dcd7d7;
 }

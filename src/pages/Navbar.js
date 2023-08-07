@@ -31,8 +31,8 @@ function Navbar({title}){
 
 
     return(
-        <div className="w-full flex justify-center  shadow-md  text-primary-content bg-primary">
-        <div className="navbar  max-w-5xl">
+        <div className="w-full flex justify-center  shadow-md  text-primary-content">
+        <div className="navbar  pl-8 pr-8 home-text">
         <div className="flex-none lg:hidden">
             <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost">
                 <Bars3Icon className="h-5 inline-block w-5"/>

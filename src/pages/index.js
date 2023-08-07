@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <Layout title={'Google Developers Home'}>
         <Hero />
-        <Features />
+        {/* <Features /> */}
         <Technologies />
         <SocialLinks />
         {/* <Testimonials /> */}
