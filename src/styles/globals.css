@@ -1,23 +1,34 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
+/* Google sans fonts */
+@layer base {
+  @font-face {
+    /* font-family: 'google-sans', 'sans-serif'; */
+    src: url(/public/fonts/GoogleSansDisplay-Regular.ttf) format("woff");
+  }
+}
+
+*{
+    @apply font-googlesans font-normal
+}
 
 .md:grid-cols-7 {
-    grid-template-columns: repeat(7, minmax(0, 1fr));
+  grid-template-columns: repeat(7, minmax(0, 1fr));
 }
 .md:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 0.15fr));
+  grid-template-columns: repeat(4, minmax(0, 0.15fr));
 }
 .grid-cols-4-1 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 @media (min-width: 768px) {
-    .md\:grid-cols-4 {
+  .md\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 0.15fr)) !important;
-}
+  }
 }
 .home-text {
-    color: rgba(0,0,0,.54);
-    border-bottom: 1px solid #dcd7d7;
+  color: rgba(0, 0, 0, 0.54);
+  border-bottom: 1px solid #dcd7d7;
 }
