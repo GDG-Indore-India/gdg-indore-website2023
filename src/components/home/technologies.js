@@ -24,7 +24,7 @@ function Technologies(){
     return(
         <>
              <div className="grid place-items-center w-full bg-base-100">
-            <div className="max-w-5xl py-24 content-center justify-center">
+            <div className="max-w-5xl py-8 mt-32 px-8 content-center justify-center technology-card">
                 <h1 className="text-4xl  text-center font-bold">Stay updated on these technologies we conducted our events</h1>
                 <div className="grid mt-12 md:grid-cols-7 grid-cols-1 gap-8">
                 {
