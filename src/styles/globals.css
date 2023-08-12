@@ -39,3 +39,16 @@
 .bg-primary {
     background: linear-gradient(183deg, rgb(245, 245, 245) 0%, rgb(255, 255, 255) 35%);
 }
+.text-primary {
+  color: #616161!important;
+}
+.image-wrapper {
+  border-radius: 50%;
+  background-color: #ffffff;
+  width: 9em;
+  height: 8em;
+  display: flex;
+  justify-content: center;
+  padding: 17px;
+  align-items: center;
+}
