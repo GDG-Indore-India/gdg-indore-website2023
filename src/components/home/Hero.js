@@ -15,7 +15,7 @@ function Hero() {
         <div className="hero-content full-width flex-col lg:flex-row-reverse text-center justify-center">
           {/* <img src="/about.jpg" className="max-w-sm rounded-lg shadow-2xl" /> */}
           <div className="max-w-4xl">
-            <h1 className="text-5xl font-bold font-googlesans text-gray-700">
+            <h1 className="text-5xl font-bold font-googlesans text-gray-700 text-primary">
               Google for Developers Indore
             </h1>
             <p className="py-6 text-gray-500">
