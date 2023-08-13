@@ -42,7 +42,7 @@ function Hero() {
           return (
             
               <div key={k} className="card w-full bg-base-100 shadow-xl">
-                <a href={t.href} target="_blank">
+                <a href={t.href} target="_blank" rel="noreferrer" >
                 <figure className="px-10 pt-10">
                   <img className="mask w-56 h-24" src={t.icon} />
                 </figure>

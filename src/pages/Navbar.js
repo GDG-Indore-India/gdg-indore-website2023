@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react'
 import MoonIcon from '@heroicons/react/24/outline/MoonIcon'
 import SunIcon from '@heroicons/react/24/outline/SunIcon'
 
-function Navbar({title, about}){
+function Navbar({title, props}){
     // const [currentTheme, setCurrentTheme] = useState(localStorage.getItem("theme"))
     const [currentTheme, setCurrentTheme] = useState(null)
 
@@ -17,7 +17,6 @@ function Navbar({title, about}){
 
     useEffect(() => {
         themeChange(false)
-        console.log(currentTheme)
         if(currentTheme === null){
             if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ) {
                 setCurrentTheme("dark")
@@ -49,7 +48,7 @@ function Navbar({title, about}){
         </div>
         <div className="flex-none hidden lg:block">
           <ul className="menu menu-horizontal">
-                <Navlinks about={about}/>
+                <Navlinks about={props}/>
           </ul>
 
         

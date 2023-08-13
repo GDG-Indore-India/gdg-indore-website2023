@@ -22,7 +22,7 @@ const testimonialsData = [
 
 const team = () => {
   return (
-    <Layout title={"Google Developers Home"}>
+    <Layout title={"Google Developers Home"} about={'/about-us'}>
       <InnerPageContainer title="Our Team">
         <div className="grid place-items-center grid-cols-4 gap-12 max-md:grid-cols-2 max-sm:grid-cols-1 max-sm:place-items-center max-sm:gap-6">
           {testimonialsData.map((t, k) => {

@@ -17,7 +17,7 @@ export default function Layout({ children, title, about }) {
         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content flex flex-col">
           <div className="overflow-y-auto  flex flex-col ">
-            <Navbar title={title} about={about} />
+          <Navbar title={title} props={about} />
 
             <div className="overflow-y-auto">
               <main>{children}</main>
