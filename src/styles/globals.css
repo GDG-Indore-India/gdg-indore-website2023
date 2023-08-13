@@ -14,6 +14,10 @@
     @apply font-googlesans font-normal
 }
 
+.profile_card_icons{
+  @apply border border-gray-300 rounded-full p-2;
+}
+
 .md:grid-cols-7 {
   grid-template-columns: repeat(7, minmax(0, 1fr));
 }
@@ -38,4 +42,17 @@
 }
 .bg-primary {
     background: linear-gradient(183deg, rgb(245, 245, 245) 0%, rgb(255, 255, 255) 35%);
+}
+.text-primary {
+  color: #616161!important;
+}
+.image-wrapper {
+  border-radius: 50%;
+  background-color: #ffffff;
+  width: 9em;
+  height: 8em;
+  display: flex;
+  justify-content: center;
+  padding: 17px;
+  align-items: center;
 }

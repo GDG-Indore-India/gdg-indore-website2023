@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <Layout title={'Tensorflow User Group Indore'}>
+    <Layout title={'Tensorflow User Group Indore'} about={'/tensorflowindore/tensorflow-about-us'}>
         <Hero />
         <Features />
         <Technologies />

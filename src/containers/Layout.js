@@ -5,7 +5,7 @@ import Bars3Icon from "@heroicons/react/24/outline/Bars3Icon";
 import Head from "next/head";
 import Navlinks from "./Navlinks";
 
-export default function Layout({ children, title }) {
+export default function Layout({ children, title, about }) {
   const logoutUser = () => {};
 
   return (
@@ -17,7 +17,7 @@ export default function Layout({ children, title }) {
         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content flex flex-col">
           <div className="overflow-y-auto  flex flex-col ">
-            <Navbar title={title} />
+            <Navbar title={title} about={about} />
 
             <div className="overflow-y-auto">
               <main>{children}</main>
@@ -29,7 +29,7 @@ export default function Layout({ children, title }) {
         <div className="drawer-side">
           <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
           <ul className="menu p-4 w-80 bg-base-100">
-            <Navlinks />
+            <Navlinks about={about}/>
           </ul>
         </div>
       </div>

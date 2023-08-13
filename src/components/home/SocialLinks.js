@@ -15,7 +15,7 @@ function SocialLinks(){
         <>
              <div className="grid place-items-center w-full bg-base-100">
             <div className="max-w-5xl py-24 content-center justify-center">
-                <h1 className="text-4xl  text-center font-bold">Follow us on our social platforms</h1>
+                <h1 className="text-4xl  text-center font-bold text-primary">Follow us on our social platforms</h1>
                 <div className="grid mt-12 md:grid-cols-4 grid-cols-1 gap-3 justify-center">
                 {
                     technologiesData.map((technology, k) => {
