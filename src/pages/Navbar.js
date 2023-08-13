@@ -6,8 +6,7 @@ import { useEffect, useState } from 'react'
 import MoonIcon from '@heroicons/react/24/outline/MoonIcon'
 import SunIcon from '@heroicons/react/24/outline/SunIcon'
 
-function Navbar({title}){
-
+function Navbar({title, about}){
     // const [currentTheme, setCurrentTheme] = useState(localStorage.getItem("theme"))
     const [currentTheme, setCurrentTheme] = useState(null)
 
@@ -50,7 +49,7 @@ function Navbar({title}){
         </div>
         <div className="flex-none hidden lg:block">
           <ul className="menu menu-horizontal">
-                <Navlinks />
+                <Navlinks about={about}/>
           </ul>
 
         
