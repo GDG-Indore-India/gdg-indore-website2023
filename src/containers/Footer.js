@@ -9,6 +9,7 @@ function Footer() {
             <br />
             <div className="flex gap-4">
     <a href="/gdgcloudindore/about-us">About GDG Program</a>
+    <a href="/gdgcloudindore/about-us">About GDG Cloud Program</a>
     <a href="/wtm-program">About WTM Program</a>
     <a href="/tensorflowindore/about-us">About Tensorflow Program</a>
     <a href="/faq">FAQ</a>

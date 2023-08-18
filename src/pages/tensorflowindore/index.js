@@ -7,16 +7,20 @@ import Features from '@/components/home/Features'
 import Testimonials from '@/components/home/Testimonials'
 import Technologies from '@/components/home/technologies'
 import SocialLinks from '@/components/home/SocialLinks'
-
+import TensorflowHero from './tensorflow-Hero'
+import TensorFlowCommunity from './tensorflow-communities'
+import TensorFlowNavbar from './tensorflow-navbar'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <Layout title={'Tensorflow User Group Indore'} about={'/tensorflowindore/tensorflow-about-us'}>
-        <Hero />
+      {/* <TensorFlowNavbar/> */}
+        <TensorflowHero />
+        <TensorFlowCommunity/>
         <Features />
-        <Technologies />
+        {/* <Technologies /> */}
         {/* <SocialLinks /> */}
         {/* <Testimonials /> */}
     </Layout>
