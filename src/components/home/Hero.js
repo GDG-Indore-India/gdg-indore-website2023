@@ -24,7 +24,7 @@ function Hero() {
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
               et a id nisi.
             </p>
-            <button className="btn bg-primary-blue border-none outline-none hover:bg-primary-blue">
+            {/* <button className="btn bg-primary-blue border-none outline-none hover:bg-primary-blue">
               <a
                 className="font-medium tracking-wider"
                 href="https://ggd.community.dev/gdg-indore"
@@ -33,7 +33,7 @@ function Hero() {
               >
                 Join our Community
               </a>
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
@@ -57,5 +57,6 @@ function Hero() {
     </div>
   );
 }
+
 
 export default Hero;
