@@ -4,12 +4,12 @@ const featuresData = [
     {title : "Networking", description : "Meet and connect with other developers in your community."}
 ]
 
-function Features(){
+function Features(url){
     return(
         <>
              <div className="grid place-items-center w-full">
             <div className="max-w-5xl py-24 content-center justify-center">
-                <h1 className="text-4xl  text-center font-bold">What does GDG Indore brings you at our events/workshops</h1>
+                <h1 className="text-4xl  text-center font-bold">What does {url?.url} brings you at our events/workshops</h1>
                 <div className="grid mt-12 md:grid-cols-3 grid-cols-1 gap-8">
                 {
                     featuresData.map((i, k) => {

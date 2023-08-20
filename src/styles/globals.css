@@ -56,3 +56,13 @@
   padding: 17px;
   align-items: center;
 }
+.background {
+  background:url('/gdg-banner-logo.jpeg');
+  background-repeat: no-repeat;
+   background-size: cover;
+}
+.wtm-background {
+  background:url('/wtm-indore-banner.jpeg');
+  background-repeat: no-repeat;
+   background-size: cover;
+}
