@@ -1,0 +1,327 @@
+[
+    {
+      "picture": "data/team data/images/aayush.jpg",
+      "name": "Aayush Agrawal",
+      "designation": "Co-organizer",
+      "community": "GDG Cloud Indore",
+      "socialLinks": {
+        "twitter": "https://twitter.com/AgentAayush",
+        "linkedin": "https://www.linkedin.com/in/aayushagrawal101/",
+        "instagram": "",
+        "github": ""
+      }
+    },
+    {
+      "picture": "data/team data/images/akash.jpeg",
+      "name": "Akash Gangrade",
+      "designation": "Organizer",
+      "community": "GDG Cloud Indore",
+      "socialLinks": {
+        "twitter": "https://twitter.com/akashgangrade23",
+        "linkedin": "https://www.linkedin.com/in/akash-gangrade-8428b8106/",
+        "instagram": "",
+        "github": ""
+      }
+    },
+    {
+      "picture": "data/team data/images/savvy-image.jpg",
+      "name": "Savvy Jain",
+      "designation": "WTM Ambassador & GDG Indore Co-organizer",
+      "community": "GDG Indore",
+      "socialLinks": {
+        "twitter": "https://www.twitter.com/savvyjain",
+        "linkedin": "https://www.linkedin.com/in/savvyjain",
+        "instagram": "",
+        "github": ""
+      }
+    },
+    {
+      "picture": "data/team data/images/darshan.png",
+      "name": "Darshan Kusumakar",
+      "designation": "Core Team Member",
+      "community": "GDG Indore",
+      "socialLinks": {
+        "twitter": "https://twitter.com/xyresic_darshan?t=zbVlbv2XtNjlMziddoasrw&s=09",
+        "linkedin": "https://www.linkedin.com/in/xyresic-darshan",
+        "instagram": "",
+        "github": "https://github.com/xyresicdarshan"
+      }
+    },
+    {
+      "picture": "data/team data/images/sarika.jpg",
+      "name": "Sarika Purohit",
+      "designation": "Core Team Member || GDSC IIST Lead",
+      "community": "GDG Cloud Indore & GDG Indore",
+      "socialLinks": {
+        "twitter": "https://twitter.com/SarikaPurohit5",
+        "linkedin": "https://www.linkedin.com/in/sarika-purohit",
+        "instagram": "",
+        "github": "https://github.com/sarika-purohit"
+      }
+    },
+    {
+      "picture": "data/team data/images/akshat.png",
+      "name": "Akshat Patel",
+      "designation": "Core Team Member GDG Indore || GDSC Lead'21",
+      "community": "GDG Indore",
+      "socialLinks": {
+        "twitter": "https://twitter.com/akshat5129",
+        "linkedin": "https://www.linkedin.com/in/akshat5129",
+        "instagram": "https://akshatpatel.me/",
+        "github": "https://github.com/Akshat5129"
+      }
+    },
+    {
+      "picture": "data/team data/images/tanushka.jpg",
+      "name": "Tanushka Mangal",
+      "designation": "Core Team Member || Graphic Designer",
+      "community": "GDG Indore",
+      "socialLinks": {
+        "twitter": "",
+        "linkedin": "https://www.linkedin.com/in/tanushka-mangal",
+        "instagram": "",
+        "github": "https://github.com/tanushhkaa"
+      }
+    },
+    {
+      "picture": "data/team data/images/prakhar.jpg",
+      "name": "Prakhar Vijaywargiya",
+      "designation": "Volunteer",
+      "community": "GDG Indore",
+      "socialLinks": {
+        "twitter": "",
+        "linkedin": "https://www.linkedin.com/in/prakhar-vijaywargiya-b130251a2",
+        "instagram": "",
+        "github": ""
+      }
+    },
+    {
+      "picture": "data/team data/images/priyal.jpg",
+      "name": "Priyal Jain",
+      "designation": "WTM Ambassador || GDG Cloud Co-organizer",
+      "community": "GDG Cloud Indore",
+      "socialLinks": {
+        "twitter": "https://twitter.com/priyaljain919/",
+        "linkedin": "https://www.linkedin.com/in/priyaljain919/",
+        "instagram": "https://priyaljain.web.app/",
+        "github": "https://github.com/priyaljain919"
+      }
+    },
+    {
+      "picture": "data/team data/images/atharv.jpg",
+      "name": "Atharv Vani",
+      "designation": "Team Member | Technical Head",
+      "community": "GDG Indore | MU-GDSC",
+      "socialLinks": {
+        "twitter": "https://twitter.com/atharv_110/",
+        "linkedin": "https://www.linkedin.com/in/atharv-vani110/",
+        "instagram": "https://atharv-110.github.io/Personal-Portfolio-Website/",
+        "github": "https://github.com/atharv-110"
+      }
+    },
+    {
+      "picture": "data/team data/images/adeen.png",
+      "name": "Adeen Shukla",
+      "designation": "GDG Indore Co-organizer",
+      "community": "GDG Indore",
+      "socialLinks": {
+        "twitter": "https://twitter.com/AdeenShukla",
+        "linkedin": "https://linkedin.com/in/adeen-s",
+        "instagram": "https://adeen.me",
+        "github": "https://github.com/adeen-s"
+      }
+    },
+    {
+      "picture": "data/team data/images/nivesh.jpg",
+      "name": "Nivesh Gaikwad",
+      "designation": "Core Team Member || Management Lead",
+      "community": "GDSC-SDSF, DAVV",
+      "socialLinks": {
+        "twitter": "https://twitter.com/gaikwad_nivesh?t=WpPmR6fVlW9eJ1ze08PVNA&s=09",
+        "linkedin": "https://www.linkedin.com/in/nivesh-gaikwad-946175230",
+        "instagram": "",
+        "github": ""
+      }
+    },
+    {
+      "picture": "data/team data/images/mradula.jpeg",
+      "name": "Mradula Mittal",
+      "designation": "Core Team Member || Content Writer",
+      "community": "GDG & WTM Indore",
+      "socialLinks": {
+        "twitter": "https://twitter.com/MittalMradula",
+        "linkedin": "https://www.linkedin.com/in/mradula-mittal/",
+        "instagram": "",
+        "github": "https://github.com/Mradula-Mittal"
+      }
+    },
+    {
+      "picture": "data/team data/images/shachita.jpg",
+      "name": "Shachita Jain",
+      "designation": "WTM Ambassador & GDG Cloud Co-organizer",
+      "community": "GDG Cloud Indore",
+      "socialLinks": {
+        "linkedin": "https://www.linkedin.com/in/shachita/",
+        "twitter": "https://twitter.com/shachitajain",
+        "instagram": "",
+        "github": ""
+      }
+    },
+    {
+      "picture": "data/team data/images/karan.jpg",
+      "name": "Karan Mittal",
+      "designation": "Co-organizer",
+      "community": "GDG Cloud Indore",
+      "socialLinks": {
+        "linkedin": "https://www.linkedin.com/in/karansmittal/",
+        "twitter": "https://twitter.com/KaranSMittal",
+        "instagram": "",
+        "github": "https://github.com/Karan-S-Mittal"
+      }
+    },
+    {
+      "picture": "data/team data/images/akhil.jpg",
+      "name": "Akhil Parikh",
+      "designation": "Core Team Member",
+      "community": "GDG Indore",
+      "socialLinks": {
+        "linkedin": "https://www.linkedin.com/in/akhilparikh",
+        "twitter": "https://twitter.com/Akhilparikh_",
+        "instagram": "",
+        "github": "https://github.com/AkhilParikh"
+      }
+    },
+    {
+      "picture": "data/team data/images/devesh.png",
+      "name": "Devesh Lashkari",
+      "designation": "Co-organizer",
+      "community": "GDG Indore",
+      "socialLinks": {
+        "linkedin": "https://www.linkedin.com/in/deveshlashkari/",
+        "twitter": "https://twitter.com/devesh_lashkari",
+        "instagram": "https://deveshlashkari.me",
+        "github": "https://www.github.com/deveshlashkari"
+      }
+    },
+    {
+      "picture": "data/team data/images/tushar.jpg",
+      "name": "Tushar Pal",
+      "designation": "Organizer",
+      "community": "GDG Indore",
+      "socialLinks": {
+        "linkedin": "https://www.linkedin.com/in/tushar-p-325b5869/",
+        "twitter": "https://twitter.com/tpal94",
+        "instagram": "",
+        "github": "https://github.com/tpal94"
+      }
+    },
+    {
+      "picture": "data/team data/images/udit.jpg",
+      "name": "Udit Sen",
+      "designation": "Co-organizer",
+      "community": "GDG Cloud Indore",
+      "socialLinks": {
+        "linkedin": "https://linkedin.com/in/aedit",
+        "twitter": "https://twitter.com/aeditme",
+        "instagram": "http://aedit.me",
+        "github": "https://github.com/aedit"
+      }
+    },
+    {
+      "picture": "data/team data/images/anurag.png",
+      "name": "Anurag Mishra",
+      "designation": "Core Team Member",
+      "community": "GDG Indore | Indore Institute of Science and Technology",
+      "socialLinks": {
+        "linkedin": "https://www.linkedin.com/in/-anuragmishra/",
+        "twitter": "https://twitter.com/anurag_ayu",
+        "instagram": "",
+        "github": "https://github.com/Ayu-mishra"
+      }
+    },
+    {
+      "picture": "data/team data/images/vinayak.png",
+      "name": "Vinayak Gavariya",
+      "designation": "GDSC Lead",
+      "community": "GDG Indore | GDSC, SDSF DAVV",
+      "socialLinks": {
+        "linkedin": "https://www.linkedin.com/in/vinayakgavariya/",
+        "twitter": "https://twitter.com/gavariyavinayak",
+        "instagram": "",
+        "github": "https://github.com/VG-1"
+      }
+    },
+    {
+      "picture": "data/team data/images/timishka.jpg",
+      "name": "Timiksha Vyas",
+      "designation": "Student | Core Team Member",
+      "community": "GDG Indore | Medicaps University",
+      "socialLinks": {
+        "linkedin": "",
+        "twitter": "",
+        "instagram": "",
+        "github": ""
+      }
+    },
+    {
+      "picture": "data/team data/images/drishti.jpg",
+      "name": "Drishti Lalwani",
+      "designation": "Student | Core Team Member",
+      "community": "GDG Indore | Acropolis Institute of Technology and Research",
+      "socialLinks": {
+        "linkedin": "https://www.linkedin.com/in/drishti-lalwani/",
+        "twitter": "",
+        "instagram": "",
+        "github": "https://github.com/DrishtiLalwani"
+      }
+    },
+    {
+      "picture": "data/team data/images/aryme.jpg",
+      "name": "Aryan Dame",
+      "designation": "Student | Core Team Member",
+      "community": "GDG Indore | Acropolis Institute of Technology and Research",
+      "socialLinks": {
+        "linkedin": "https://www.linkedin.com/in/aryandame",
+        "twitter": "",
+        "instagram": "",
+        "github": ""
+      }
+    },
+    {
+      "picture": "data/team data/images/rohit.jpg",
+      "name": "Rohit Chaudhary",
+      "designation": "Working Professional | Core Team Member",
+      "community": "GDG Indore | Hexaview Technologies",
+      "socialLinks": {
+        "linkedin": "https://www.linkedin.com/in/rohit-chaudhary-7697781a7",
+        "twitter": "",
+        "instagram": "",
+        "github": ""
+      }
+    },
+    {
+      "picture": "data/team data/images/asmita.jpg",
+      "name": "Asmita Bhadoria",
+      "designation": "Student | Core Team Member",
+      "community": "GDSC Lead | NMIMS College",
+      "socialLinks": {
+        "linkedin": "https://www.linkedin.com/in/rohit-chaudhary-7697781a7",
+        "twitter": "",
+        "instagram": "",
+        "github": ""
+      }
+    },
+    {
+      "picture": "data/team data/images/manas.jpg",
+      "name": "Manas Bhandari",
+      "designation": "Core Team Member",
+      "community": "GDG Indore",
+      "socialLinks": {
+        "twitter": "https://twitter.com/xyresic_darshan?t=zbVlbv2XtNjlMziddoasrw&s=09",
+        "linkedin": "https://www.linkedin.com/in/manas0609/",
+        "instagram": "",
+        "github": "https://github.com/manasbhandari"
+      }
+    }
+  ]
+  

@@ -1,16 +1,20 @@
 import Image from "next/image";
 import Link from "next/link";
 
+
+
+
 const ProfileCard = (props) => {
+  console.log(props.social)
   return (
     <div className="w-[250px] h-[300px] rounded-md flex flex-col justify-around items-center p-5 bg-white border shadow-md">
       <div className="w-[100px] flex justify-center items-center p-1 border border-gray-300 rounded-full">
         <Image
           src={props.picture}
-          className="w-full rounded-full"
+          className="w-full h-auto rounded-full"
           alt="profile-image"
-          width={100}
-          height={100}
+          width={0}
+          height={0}
         />
       </div>
       <div className="w-full flex flex-col text-center items-center">
