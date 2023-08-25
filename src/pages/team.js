@@ -4,24 +4,9 @@ import InnerPageContainer from "@/components/common/InnerPageContainer";
 import ProfileCard from "@/components/common/ProfileCard";
 
 // Data Import
-import teamData from "../../public/data/team data/teamData.json"
+import teamData from "../../public/data/team data/teamData.json";
 
-// const testimonialsData = [
-//   {
-//     picture: "data/team data/images/user-icon.jpg",
-//     name: "User Name",
-//     designation: "Designation Here",
-//     community: "",
-//     socialLinks: [
-//       {
-//         twitter: "https://twitter.com",
-//         instagram: "https://www.instagram.com/",
-//         github: "https://github.com/",
-//         linkedin: "https://linkedin.com/",
-//       },
-//     ],
-//   },
-// ];
+let teamDataOrg = teamData;
 
 
 const team = () => {
@@ -45,5 +30,12 @@ const team = () => {
     </Layout>
   );
 };
+
+function sortByName(){
+  teamDataOrg.sort((a, b) => {
+  return (a.name.toLowerCase() < b.name.toLowerCase()) ? -1 : 1;
+})
+};
+teamDataOrg = sortByName();
 
 export default team;
