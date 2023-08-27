@@ -3,11 +3,11 @@ import Layout from '@/containers/Layout'
 
 export default function Page() {
     return (
-    <Layout title={'Tensorflow User Group Indore'} about={'/tensorflowindore/tensorflow-about-us'}>
+    <Layout title={'Tensorflow User Group Indore'} about={'/about-us'}>
       <InnerPageContainer title="About Us">
       <div className="bg-gray-100 min-h-screen flex flex-col justify-center items-center p-8">
     <div className="max-w-3xl text-center">
-        <h2 className="text-3xl font-bold mb-4 text-blue">About Tensorflow Indore</h2>
+        
         <p>
             Hey,&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
             Hope you&apos;re doing great!&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 

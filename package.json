@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.15",
+    "@mui/icons-material": "^5.14.6",
     "@next/font": "13.1.6",
     "@tailwindcss/typography": "^0.5.9",
     "daisyui": "^2.50.1",

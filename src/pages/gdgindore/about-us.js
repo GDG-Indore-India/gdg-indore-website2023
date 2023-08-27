@@ -2,7 +2,7 @@ import InnerPageContainer from "@/components/common/InnerPageContainer";
 import Layout from '@/containers/Layout'
 export default function Page() {
     return (
-      <Layout title={'Google Developers Group Indore'} about={'/gdgindore/gdg-about-us'}>
+      <Layout title={'Google Developers Group Indore'} about={'/about-us'}>
       <InnerPageContainer title="About Us">
       <div className="bg-gray-100 min-h-screen flex flex-col justify-center items-center p-8">
     <div className="max-w-3xl text-center">
