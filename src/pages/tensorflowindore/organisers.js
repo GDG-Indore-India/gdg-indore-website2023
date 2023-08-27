@@ -14,6 +14,7 @@ function TensorFlowOrganizer() {
   };
 
   return (
+    
     <div className="grid place-items-center w-full">
       <div className="max-w-5xl py-5 content-center justify-center">
         <h1 className="text-4xl text-center font-bold">Organizer</h1>
@@ -36,6 +37,7 @@ function TensorFlowOrganizer() {
         </div>
       </div>
     </div>
+
   );
 }
 
