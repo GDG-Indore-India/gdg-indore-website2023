@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <Layout url={'wtmindore'} title={'Women Techmakers Indore'} about={'/wtmindore/wtm-about-us'}>
+    <Layout url={'wtmindore'} title={'Women Techmakers Indore'} about={'/wtmindore/about-us'}>
         <WTMHero />
         <Features url={'Women Techmakers Indore'}/>
         {/* <Technologies /> */}
