@@ -5,12 +5,28 @@ export default function Page() {
     return (
     <Layout title={'Google Developers Group Cloud Indore'} about={'/about-us'}>
       <InnerPageContainer title="About Us">
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <p className="mt-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+      <div className="bg-gray-100 min-h-screen flex flex-col justify-center items-center p-8">
+    <div className="max-w-3xl text-center">
+        
+        <p>
+        Google Developers Group(GDG) Cloud Indore meetup event includes talks on a wide range of technical topics where you can learn new skills through meetups, hands-on workshops, online challenges and hackathon. The community prides itself on being an inclusive environment where everyone and anyone interested in tech - from beginner developers to experienced professionals - all are welcome to join.
+
+Disclaimer: GDG Cloud Indore is an independent group; our activities and the opinions expressed here should in no way be linked to Google, the corporation. 
+        </p>
+        <p className="text-lg text-gray-700 mt-4">
+        To learn more about the GDG program, visit{' '}
+            <a
+                href="https://developers.google.com/community/gdg/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue hover:underline"
+            >
+                here
+            </a>
+            .
+        </p>
+    </div>
+</div>
       </InnerPageContainer>
       </Layout>
     )
