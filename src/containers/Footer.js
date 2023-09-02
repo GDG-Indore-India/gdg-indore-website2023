@@ -4,7 +4,7 @@ function Footer() {
       <div className="bg-base-300 flex justify-center">
         <footer className="footer p-8 max-w-5xl  text-base-content">
           <div>
-           <h1>Devfest 2021</h1>
+           <h1>Devfest 2023</h1>
 
             <br />
             <div className="flex gap-4">

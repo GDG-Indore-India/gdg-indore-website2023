@@ -1,7 +1,7 @@
 function GDGHero() {
   return (
     <div>
-      <div className="hero pt-20 bg-base-100 bg-primary pt-32 background">
+      <div className="hero pt-20 bg-base-100 bg-primary pt-32 background ">
         <div className="hero-content full-width flex-col lg:flex-row-reverse text-center justify-center">
           {/* <img src="/about.jpg" className="max-w-sm rounded-lg shadow-2xl" /> */}
           <div className="max-w-4xl">
