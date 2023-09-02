@@ -1,8 +1,8 @@
 import { FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
-import { useRouter } from 'next/router';
+// import { useRouter } from 'next/router';
 
 function organisers() {
-  const router = useRouter();
+//   const router = useRouter();
   const OrganizerData = [
     { img: '/Akashsir.jpeg',
         title: "Akash Gangrade",
