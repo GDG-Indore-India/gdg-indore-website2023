@@ -3,8 +3,6 @@ import Bars3Icon  from '@heroicons/react/24/outline/Bars3Icon'
 import Navlinks from '../containers/Navlinks'
 import { themeChange } from 'theme-change'
 import { useEffect, useState } from 'react'
-import MoonIcon from '@heroicons/react/24/outline/MoonIcon'
-import SunIcon from '@heroicons/react/24/outline/SunIcon'
 
 function Navbar({title, props,url}){
     // const [currentTheme, setCurrentTheme] = useState(localStorage.getItem("theme"))
@@ -52,11 +50,11 @@ function Navbar({title, props,url}){
           </ul>
 
         
-          <label className="swap ">
+          {/* <label className="swap ">
                 <input type="checkbox"/>
                 <SunIcon data-set-theme="light" data-act-class="ACTIVECLASS" className={"fill-current w-5 h-5 "+(currentTheme === "dark" ? "swap-on" : "swap-off")}/>
                 <MoonIcon data-set-theme="dark" data-act-class="ACTIVECLASS" className={"fill-current w-5 h-5 "+(currentTheme === "light" ? "swap-on" : "swap-off")} />
-            </label>
+            </label> */}
 
           {/* <div className="dropdown ml-6 dropdown-end">
                 <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
