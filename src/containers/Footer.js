@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 function Footer() {
   return (
     <div>
@@ -8,6 +10,7 @@ function Footer() {
 
             <br />
             <div className="flex gap-4">
+
     <link href="/gdgindore/about-us">About GDG Program</link>
     <link href="/gdgcloudindore/about-us">About GDG Cloud Program</link>
     <link href="/wtmindore/about-us">About WTM Program</link>
@@ -15,6 +18,7 @@ function Footer() {
     <link href="/tensorflowindore/faq">FAQ</link>
     <link href="/code-of-conduct">Code of conduct</link>
     <link href="/community-guidelines">Community Guidelines</link>
+
 </div>
           </div>
         </footer>
