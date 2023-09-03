@@ -14,7 +14,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <Layout url={'gdgcloudindore'} title={'Google Developers Group Cloud Indore'} about={'/gdgcloudindore/about-us'}>
+    <Layout url={'gdgcloudindore'} title={'Google Developers Group Cloud Indore'} about={'/gdgcloudindore/about-us'} logo={'/gdg-cloud-indore.svg'}>
         <GCHero/>
         <Features />
         <Technologies />

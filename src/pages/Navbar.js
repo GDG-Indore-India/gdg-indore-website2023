@@ -4,7 +4,8 @@ import Navlinks from '../containers/Navlinks'
 import { themeChange } from 'theme-change'
 import { useEffect, useState } from 'react'
 
-function Navbar({title, props,url}){
+function Navbar({title, props,url, logo}){
+    console.log(logo, 'logo', props);
     // const [currentTheme, setCurrentTheme] = useState(localStorage.getItem("theme"))
     const [currentTheme, setCurrentTheme] = useState(null)
 
@@ -40,7 +41,8 @@ function Navbar({title, props,url}){
             <Link href="/">
             <span className='font-bold text-xl'>
                 {/* <img className="mask inline-block mr-2 mask-circle w-10" src="/android-chrome-192x192.png" />  */}
-                {title}
+                {/* {title} */}
+                <img className="mask inline-block mr-2 w-36" src={logo} />
             </span>
             </Link>
         </div>
