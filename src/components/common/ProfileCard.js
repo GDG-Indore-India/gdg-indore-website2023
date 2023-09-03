@@ -11,7 +11,7 @@ const ProfileCard = (props) => {
       <div className="w-[100px] flex justify-center items-center p-1 border border-gray-300 rounded-full">
         <Image
           src={props.picture}
-          className="w-full h-auto rounded-full"
+          className="w-full h-auto rounded-full card-image"
           alt="profile-image"
           width={0}
           height={0}
