@@ -9,9 +9,7 @@ function WTMHero() {
                 Women Techmakers Indore
               </h1>
               <p className="py-6 text-gray-500">
-                Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-                excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-                et a id nisi.
+              The Women Techmakers Indore program assists women in the tech field who aim to make a difference and contribute to their communities. Additionally, participants will have the opportunity to be involved in community engagement through various leadership activities every meet-up events regards to GDG,GDG cloud, TensorFlow, Women In tech, Women Who Code and many more community events.
               </p>
               <button className="btn bg-primary-blue border-none outline-none hover:bg-primary-blue">
                 <a

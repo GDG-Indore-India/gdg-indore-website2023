@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <Layout title={'Google Developers Home'} about={'/about-us'}>
+    <Layout title={'Google Developers Home'} about={'/about-us'} logo={'/gdg-indore-logo.svg'}>
         <Hero />
         {/* <Features /> */}
         <Technologies />

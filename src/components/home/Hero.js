@@ -20,10 +20,7 @@ function Hero() {
               Google for Developers Indore
             </h1>
             <p className="py-6 text-gray-500">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
-            </p>
+            Google for Developers Indore, is a technical-community based in Indore, India. We organize frequent meetup events which include talks on a wide range of technical topics where you can learn new skills through hands-on workshops, online challenges, interaction with the community, and hackathons into multiple communities events such as <b> Google Developers Group Indore(GDG Indore), Google Developers Group Cloud Indore(GDG Cloud Indore), Women Techmakers Indore (WTM Indore), TensorFlow User Group Indore(TFUG Indore) </b>         </p>
             {/* <button className="btn bg-primary-blue border-none outline-none hover:bg-primary-blue">
               <a
                 className="font-medium tracking-wider"
