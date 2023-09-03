@@ -32,7 +32,7 @@
     grid-template-columns: repeat(4, minmax(0, 0.15fr)) !important;
   }
   .grid-cols-4-1 {
-    grid-template-columns: repeat(4, minmax(0, 0.15fr)) !important;
+    grid-template-columns: auto;
   }
 }
 .home-text {
