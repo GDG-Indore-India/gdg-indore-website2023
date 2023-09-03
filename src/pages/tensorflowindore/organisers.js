@@ -1,5 +1,7 @@
 import { FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
 import { useRouter } from 'next/router';
+import Layout from '@/containers/Layout'
+
 
 function TensorFlowOrganizer() {
   const router = useRouter();
@@ -14,7 +16,7 @@ function TensorFlowOrganizer() {
   };
 
   return (
-    
+    <Layout url={'tensorflowindore'} title={'Tensorflow User Group Indore'} about={'/tensorflowindore/tensorflow-about-us'}>
     <div className="grid place-items-center w-full">
       <div className="max-w-5xl py-5 content-center justify-center">
         <h1 className="text-4xl text-center font-bold">Organizer</h1>
@@ -37,6 +39,7 @@ function TensorFlowOrganizer() {
         </div>
       </div>
     </div>
+    </Layout>
 
   );
 }

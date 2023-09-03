@@ -11,13 +11,13 @@ function Footer() {
             <br />
             <div className="flex gap-4">
 
-    <link href="/gdgindore/about-us">About GDG Program</link>
-    <link href="/gdgcloudindore/about-us">About GDG Cloud Program</link>
-    <link href="/wtmindore/about-us">About WTM Program</link>
-    <link href="/tensorflowindore/about-us">About Tensorflow Program</link>
-    <link href="/tensorflowindore/faq">FAQ</link>
-    <link href="/code-of-conduct">Code of conduct</link>
-    <link href="/community-guidelines">Community Guidelines</link>
+              <Link href="/gdgindore/about-us">About GDG Program</Link>
+              <Link href="/gdgcloudindore/about-us">About GDG Cloud Program</Link>
+              <Link href="/wtmindore/about-us">About WTM Program</Link>
+              <Link href="/tensorflowindore/about-us">About Tensorflow Program</Link>
+              <Link href="/tensorflowindore/faq">FAQ</Link>
+              <Link href="/code-of-conduct">Code of conduct</Link>
+              <Link href="/community-guidelines">Community Guidelines</Link>
 
 </div>
           </div>

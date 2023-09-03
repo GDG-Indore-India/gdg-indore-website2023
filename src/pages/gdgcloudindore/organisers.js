@@ -1,5 +1,7 @@
 import { FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
 // import { useRouter } from 'next/router';
+import Layout from '@/containers/Layout'
+
 
 function organisers() {
 //   const router = useRouter();
@@ -17,7 +19,7 @@ function organisers() {
   };
 
   return (
-    
+    <Layout url={'gdgcloudindore'} title={'Google Developers Group Cloud Indore'} about={'/gdgcloudindore/about-us'}>
     <div className="grid place-items-center w-full">
       <div className="max-w-5xl py-5 content-center justify-center">
         <h1 className="text-4xl text-center font-bold">Organizer</h1>
@@ -40,6 +42,7 @@ function organisers() {
         </div>
       </div>
     </div>
+    </Layout>
 
   );
 }
