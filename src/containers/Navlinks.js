@@ -10,7 +10,6 @@ function Navlinks(about){
             <li className="mr-2"><Link href="/contact-us">Contact Us</Link></li>
         </> :
         <>
-            <li className="mr-2"><Link href={(about.about !== undefined) ? about.about : '/'}>About Us</Link></li>
             <li className="mr-2"><Link href="/contact-us">Contact Us</Link></li>
             {/* Added team page to check routing */}    
             <li className="mr-2"><Link href="/team">Team</Link></li>
