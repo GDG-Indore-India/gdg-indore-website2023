@@ -34,6 +34,16 @@
   .grid-cols-4-1 {
     grid-template-columns: auto;
   }
+  .flex-mobile {
+    display: flex !important;
+    flex-wrap: wrap;
+  }
+  .w-mobile-auto {
+    width: auto !important;
+  }
+  .background, .wtm-background, .gdc-background {
+    background-size: contain !important;
+  }
 }
 .home-text {
   color: rgba(0, 0, 0, 0.54);

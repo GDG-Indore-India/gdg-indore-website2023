@@ -6,10 +6,10 @@ function Footer() {
       <div className="bg-base-300 flex justify-center">
         <footer className="footer p-8 max-w-5xl  text-base-content">
           <div>
-           <h1>Devfest 2023</h1>
+           <h1>Google For Developers Indore</h1>
 
             <br />
-            <div className="flex gap-4">
+            <div className="flex gap-4 flex-wrap">
 
               <Link href="/gdgindore/about-us">About GDG Program</Link>
               <Link href="/gdgcloudindore/about-us">About GDG Cloud Program</Link>

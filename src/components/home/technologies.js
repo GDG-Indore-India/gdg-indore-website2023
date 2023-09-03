@@ -28,11 +28,11 @@ function Technologies(){
              <div className="grid place-items-center w-full bg-base-100 pb-12">
             <div className="max-w-5xl py-8 mt-32 px-8 content-center justify-center technology-card">
                 <h1 className="text-4xl  text-center font-bold text-primary">Stay updated on these technologies we conducted our events</h1>
-                <div className="grid mt-12 md:grid-cols-7 grid-cols-1 gap-8">
+                <div className="grid mt-12 md:grid-cols-7 grid-cols-1 gap-8 flex-mobile">
                 {
                     technologiesData.map((technology, k) => {
                         return(
-                            <div key={k} className="card w-full bg-base-100">
+                            <div key={k} className="card w-full w-mobile-auto bg-base-100">
                                 <figure className="mask-circle-wrapper rounded-full p-0 pt-0 px-0">
                                 <Link href={technology.href} target="_blank"><img className="mask w-20 h-20 mask-circle" src={technology.icon} /></Link>
                                 </figure>
