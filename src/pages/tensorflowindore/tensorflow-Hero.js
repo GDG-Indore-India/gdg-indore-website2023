@@ -8,14 +8,13 @@ function Hero() {
             TensorFlow for Developers Indore
           </h1>
           <p className="py-6 text-gray-500">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-            et a id nisi.
+          TensorFlow User Group Indore is a platform that brings together like-minded individuals from diverse backgrounds to collaborate, learn, and innovate in the field of data science and machine learning using TensorFlow. Whether you're an experienced practitioner or a beginner, TFUG Indore welcomes everyone interested in harnessing the power of TensorFlow and staying ahead in this rapidly evolving tech landscape.
+
           </p>
           <button className="btn bg-primary-blue border-none outline-none hover:bg-primary-blue">
             <a
               className="font-medium tracking-wider"
-              href="https://ggd.community.dev/gdg-indore"
+              href="https://bit.ly/tensorflow-indore-register"
               target="_blank"
               rel="noreferrer"
             >
