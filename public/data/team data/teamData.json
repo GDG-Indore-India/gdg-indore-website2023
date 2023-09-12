@@ -322,6 +322,42 @@
         "instagram": "",
         "github": "https://github.com/manasbhandari"
       }
+    },
+    {
+      "picture": "data/team data/images/tanmay.jpg",
+      "name": "Tanmay Bhadviya",
+      "designation": "Core Team Member",
+      "community": "GDG Indore",
+      "socialLinks": {
+        "twitter": "https://twitter.com/TanmayBhadviya",
+        "linkedin": "https://www.linkedin.com/in/tan-bha-61948523a/",
+        "instagram": "",
+        "github": "https://github.com/tanmay-6"
+      }
+    },
+    {
+      "picture": "data/team data/images/rishita.jpg",
+      "name": "Rishita Gupta",
+      "designation": "Core Team Member",
+      "community": "GDG Indore",
+      "socialLinks": {
+        "twitter": "https://twitter.com/Ristheticsoul04?t=hxcl0Cmcbowl2zc3VDAfMg&s=09",
+        "linkedin": "https://www.linkedin.com/in/rishita-gupta-41575b24a",
+        "instagram": "https://instagram.com/rishie.ly?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==",
+        "github": "https://github.com/Rishita1354"
+      }
+    },
+    {
+      "picture": "data/team data/images/rishita.jpg",
+      "name": "Pallavi Yadav",
+      "designation": "Core Team Member",
+      "community": "GDG Indore",
+      "socialLinks": {
+        "twitter": "https://twitter.com/Pallaviyad2305",
+        "linkedin": "https://www.linkedin.com/in/pallavi-yadav05/",
+        "instagram": "",
+        "github": "https://github.com/Pallavi023"
+      }
     }
   ]
   
